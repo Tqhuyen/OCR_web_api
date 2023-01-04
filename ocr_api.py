@@ -73,7 +73,7 @@ def process_image():
     # img = Image.open(file.stream)
     image, message = predict(img_path=img_path,name=time_stamp, use_gpu=bool(gpu_use))
     image_result_path = f'result_{time_stamp}.jpg' # point to your image location
-    image_url = config.domain +'/static/' + image_result_path
+    image_url = domain +'/static/' + image_result_path
     encoded_img = get_response_image('./static/' + image_result_path)
     my_message = message # create your message as per your need
 
