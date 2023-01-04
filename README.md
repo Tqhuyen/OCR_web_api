@@ -21,6 +21,7 @@ pip install "paddleocr>=2.0.1" # Recommend to use version 2.0.1+
 ```bash
 pip install flask
 ```
+
 4.Tạo file có tên <.env> cùng đường dẫn với project với cấu trúc giống trong file .env.example
 
 5. Run
