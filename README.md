@@ -11,7 +11,7 @@ Nếu máy chỉ có CPU
 python3 -m pip install paddlepaddle -i https://mirror.baidu.com/pypi/simple
 ```
 
-2.Cài đặt thư viện PaddleOCR
+2. Cài đặt thư viện PaddleOCR
 
 ```bash
 pip install "paddleocr>=2.0.1" # Recommend to use version 2.0.1+
@@ -22,7 +22,7 @@ pip install "paddleocr>=2.0.1" # Recommend to use version 2.0.1+
 pip install flask
 ```
 
-4.Tạo file có tên <.env> cùng đường dẫn với project với cấu trúc giống trong file .env.example
+4. Tạo file có tên <.env> cùng đường dẫn với project với cấu trúc giống trong file .env.example
 
 5. Run
 ```bash
