@@ -53,7 +53,7 @@ def predict(img_path,name, use_gpu=True):
   boxes = [line[0] for line in feature]
   txts = [line[1][0] for line in feature]
   scores = [line[1][1] for line in feature]
-  im_show = draw_ocr(image, boxes, txts, scores, font_path='E:\Hekate\OCR_Project\web_api\simfang.ttf')
+  im_show = draw_ocr(image, boxes, txts, scores, font_path='E:\\Hekate\\OCR_Project\\web_api\\fonts\\simfang.ttf')
   im_show = Image.fromarray(im_show)
   image_result_path = f'./static/result_{name}.jpg'
   im_show.save(image_result_path)
@@ -83,4 +83,4 @@ def process_image():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0', port=2224)
